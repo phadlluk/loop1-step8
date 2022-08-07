@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+}
+main {
+  height: 80vh;
+  width: 70%;
+  margin: 12vh auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 60%;
+}
+.section1 {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+}
+.arrow1 {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 0 2rem;
+  font-size: 0.75rem;
+  gap: 0.4rem;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.arrow1 img {
+  height: 1rem;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 2.5rem 2rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.navbar p:hover {
+}
+.navbar p:first-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+.navbar p:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+.city {
+  font-size: 4rem;
+  display: flex;
+  margin-left: 3.5rem;
+  margin-top: 4rem;
+}
+.div1 {
+  display: flex;
+  align-items: center;
+}
+.line {
+  height: 0.25rem;
+  flex-grow: 1;
+  width: 14rem;
+  background-color: black;
+  margin-right: 7rem;
+  margin-top: 10rem;
+}
+.jerry {
+  display: flex;
+  gap: 0.3rem;
+  margin: 1rem 0 0 4rem;
+  font-size: 1.5rem;
+}
+.jerry p:nth-child(2) {
+  font-weight: bold;
+}
+.preview img.prev-pic {
+  height: 8rem;
+  margin: 2rem 0 0 4rem;
+  cursor: pointer;
+}
+.prev {
+  position: relative;
+}
+
+.play {
+  position: absolute;
+  top: 5rem;
+  left: 9rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.25rem;
+}
+.play img {
+  width: 2rem;
+  cursor: pointer;
+}
+.preview {
+  display: flex;
+}
+.preview p {
+  font-size: 1.4rem;
+  margin: 2.3rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.arrow2 {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-left: 4rem;
+  margin-top: -3.6rem;
+}
+.arrow2 p {
+  font-size: 0.8rem;
+}
+.arrow2 img {
+  height: 1.2rem;
+}
